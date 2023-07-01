@@ -1,0 +1,17 @@
+name: SellAll
+main: AndreasHGK\SellAll\SellAll
+src-namespace-prefix: AndreasHGK\SellAll
+version: 2.0.0
+api: 5.0.0
+author: AndreasHGK
+description: Sell all items in your hand or all items in your inventory with the same type as in your hand
+
+commands:
+  sell:
+    description: "Sell command"
+    usage: "/sell all|hand|amount"
+    permission: sellall.command
+
+permissions:
+  sellall.command:
+    default: true
